@@ -2,7 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-export default function App() {
+let boolean = true;
+
+const user = {
+  name: 'Jonathan Kee',
+}
+
+function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,9 +22,11 @@ export default function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React with {boolean? user.name: "false lah"}
         </a>
       </header>
     </div>
   );
 }
+
+export default App;
