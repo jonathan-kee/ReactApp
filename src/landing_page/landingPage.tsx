@@ -1,7 +1,7 @@
 // NO NEEDED TO PUT SCRIPT TAG IN JSX FOR REACT, JUST IMPORT BOOTSTRAP BELOW
-// Need to import bootstrap.min.js for phone nav bar to work
-//import './assets/bootstrap/js/bootstrap.min.js';
-//import './assets/bootstrap/js/react-bootstrap.min.js';
+// Need to import bootstrap.min.js for phone nav bar to work, however...
+// gh pages was not friendly to bootstrap.min.js, need to use cdn to work
+// import './assets/bootstrap/js/bootstrap.min.js';
 import './assets/bootstrap/css/bootstrap.min.css';
 import './assets/fonts/font-awesome.min.css';
 import './assets/fonts/simple-line-icons.min.css';
